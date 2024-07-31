@@ -1,3 +1,4 @@
+const failureFile = fs.readFileSync("/static/checkfailed.html", "utf8");
 const config = {
   challenge: true, // Set to true if you want to enable password protection.
   users: {
