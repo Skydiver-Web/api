@@ -18,7 +18,7 @@
     "express": "^4.19.2",
     "express-basic-auth": "^1.2.1",
     "jquery": "^3.7.1",
-    "@vercel/analytics": "^1.0.0"  // Add this line
+    "@vercel/analytics": "^1.0.0"  
   },
   "devDependencies": {
     "prettier": "3.2.5"
