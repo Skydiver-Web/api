@@ -1,3 +1,4 @@
+import { inject } from "@vercel/analytics"
 import express from 'express'
 import basicAuth from 'express-basic-auth'
 import http from 'node:http'
