@@ -1,7 +1,6 @@
 import express from 'express';
 import basicAuth from 'express-basic-auth';
 import http from 'node:http';
-import { inject } from '@vercel/analytics';
 import { createBareServer } from '@tomphttp/bare-server-node'
 import { fileURLToPath } from "url";
 import { createServer as createHttpsServer } from "node:https";
@@ -34,7 +33,6 @@ app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 app.use(cors())
 app.use(express.static(path.join(__dirname, 'static')))
-inject();
 
 if (config.routes !== false) {
   const routes = [
