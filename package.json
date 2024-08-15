@@ -1,6 +1,4 @@
 {
-  "name": "idk",
-  "version": "5.2.3",
   "type": "module",
   "engines": {
     "npm": ">=7.0.0",
