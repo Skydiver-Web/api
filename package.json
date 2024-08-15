@@ -1,7 +1,7 @@
 {
   "name": "idk",
   "version": "5.1.5",
-  "type": "module"
+  "type": "module",
   "engines": {
     "npm": ">=7.0.0",
     "node": ">=16.0.0"
